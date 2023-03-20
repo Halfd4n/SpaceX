@@ -1,0 +1,17 @@
+C:\Users\benja\Desktop\Newton\OPF\Newton-Razor\SpaceX\SpaceX.BLL\bin\Debug\net7.0\SpaceX.BLL.deps.json
+C:\Users\benja\Desktop\Newton\OPF\Newton-Razor\SpaceX\SpaceX.BLL\bin\Debug\net7.0\SpaceX.BLL.dll
+C:\Users\benja\Desktop\Newton\OPF\Newton-Razor\SpaceX\SpaceX.BLL\bin\Debug\net7.0\SpaceX.BLL.pdb
+C:\Users\benja\Desktop\Newton\OPF\Newton-Razor\SpaceX\SpaceX.BLL\bin\Debug\net7.0\SpaceX.DTO.dll
+C:\Users\benja\Desktop\Newton\OPF\Newton-Razor\SpaceX\SpaceX.BLL\bin\Debug\net7.0\SpaceX.DTO.pdb
+C:\Users\benja\Desktop\Newton\OPF\Newton-Razor\SpaceX\SpaceX.BLL\obj\Debug\net7.0\SpaceX.BLL.csproj.AssemblyReference.cache
+C:\Users\benja\Desktop\Newton\OPF\Newton-Razor\SpaceX\SpaceX.BLL\obj\Debug\net7.0\SpaceX.BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\benja\Desktop\Newton\OPF\Newton-Razor\SpaceX\SpaceX.BLL\obj\Debug\net7.0\SpaceX.BLL.AssemblyInfoInputs.cache
+C:\Users\benja\Desktop\Newton\OPF\Newton-Razor\SpaceX\SpaceX.BLL\obj\Debug\net7.0\SpaceX.BLL.AssemblyInfo.cs
+C:\Users\benja\Desktop\Newton\OPF\Newton-Razor\SpaceX\SpaceX.BLL\obj\Debug\net7.0\SpaceX.BLL.csproj.CoreCompileInputs.cache
+C:\Users\benja\Desktop\Newton\OPF\Newton-Razor\SpaceX\SpaceX.BLL\obj\Debug\net7.0\SpaceX.BLL.csproj.CopyComplete
+C:\Users\benja\Desktop\Newton\OPF\Newton-Razor\SpaceX\SpaceX.BLL\obj\Debug\net7.0\SpaceX.BLL.dll
+C:\Users\benja\Desktop\Newton\OPF\Newton-Razor\SpaceX\SpaceX.BLL\obj\Debug\net7.0\refint\SpaceX.BLL.dll
+C:\Users\benja\Desktop\Newton\OPF\Newton-Razor\SpaceX\SpaceX.BLL\obj\Debug\net7.0\SpaceX.BLL.pdb
+C:\Users\benja\Desktop\Newton\OPF\Newton-Razor\SpaceX\SpaceX.BLL\obj\Debug\net7.0\ref\SpaceX.BLL.dll
+C:\Users\benja\Desktop\Newton\OPF\Newton-Razor\SpaceX\SpaceX.BLL\bin\Debug\net7.0\SpaceX.API.dll
+C:\Users\benja\Desktop\Newton\OPF\Newton-Razor\SpaceX\SpaceX.BLL\bin\Debug\net7.0\SpaceX.API.pdb

@@ -1,0 +1,100 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+
+    margin-bottom: 60px;
+    background-color: rgb(35, 27, 75);
+    font-family: 'OCR A'
+}
+
+.card {
+    background-color: rgb(35, 27, 75);
+    color: rgb(167, 160, 160)
+}
+
+.card-header {
+    background-color: rgb(35, 27, 75)
+}
+
+.card:hover {
+    box-shadow: 0 0 5px rgb(217, 192, 52), 0 0 10px rgb(217, 192, 52), 0 0 15px rgb(217, 192, 52), 0 0 20px rgb(217, 192, 52);
+    transform: translate(-1px);
+    color:azure;
+}
+
+
+#page-header {
+    color: rgb(217, 192, 52);
+    margin: 100px 0 20px 0;
+}
+
+.glowing {
+    text-shadow: 0 0 5px rgb(217, 192, 52), 0 0 10px rgb(217, 192, 52), 0 0 15px rgb(217, 192, 52), 0 0 20px rgb(217, 192, 52);
+}
+
+.hover-glow:hover {
+    text-shadow: 0 0 5px rgb(217, 192, 52), 0 0 10px rgb(217, 192, 52), 0 0 15px rgb(217, 192, 52), 0 0 20px rgb(217, 192, 52);
+}
+
+.navbar {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1030;
+    background-color: rgb(35, 27, 75);
+    border-bottom: inset;
+    border-color: rgb(167, 160, 160);
+    color: rgb(167, 160, 160);
+}
+
+.nav-link {
+    color: rgb(167, 160, 160);
+}
+
+.navbar-brand {
+    color: rgb(167, 160, 160);
+}
+
+
+.divider {
+    background-image: linear-gradient(to right, rgb(217, 192, 52), rgb(167, 160, 160), rgb(217, 192, 52));
+    height: 3px;
+}
+
+
+.row {
+    color: rgb(167, 160, 160);
+}
+
+.transparent-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+
+.transparent-button:active .fa-rocket {
+    transform: translate3d(3px, 3px, 3px);
+    color: rgb(167, 160, 160);
+}
+
+.favorite-launch {
+    color: rgb(217, 192, 52);
+}

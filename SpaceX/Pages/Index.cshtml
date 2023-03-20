@@ -1,0 +1,120 @@
+﻿@page
+@using SpaceX.DTO.Models;
+@model IndexModel
+@{
+    ViewData["Title"] = "Space-X";
+}
+
+<div class="container">
+    <h2 id="page-header" class="text-center glowing"><i class="fa-solid fa-rocket fa-2xl me-3 mb-4"></i>SpaceX launches:</h2>
+    <div class="row mt-4 mb-4 divider">
+        <hr />
+    </div>
+    <hr />
+    <div class="row justify-content-center" id="all-launches">
+        @foreach(LaunchViewModel launch in Model.allLaunches)
+        {
+            if (launch.IsFavourite)
+            {
+                <div class="card border border-3 m-2 p-2 display-launch glowing" style="width: 25rem">
+                    <h2 class="text-center p-1 mt-4 mb-3"><form method="post" asp-route-flightNumber="@launch.FlightNumber" asp-page-handler="CreateFavoriteLaunch"><button class="transparent-button" title="Unmark as favorite..."><i class="fa-solid fa-rocket fa-2xl glowing favorite-launch"></i></button></form></h2>
+                    <div class="row mt-3 mb-3 divider align-self-center" style="width:99%;">
+                        <hr />
+                    </div>
+                    <div class="card-body text-center">Details:</div>
+                    <div class="card-body text-center">
+                        Mission name: @launch.MissionName
+                        <br />
+                        Launch site: @launch.LaunchSite.SiteNameAbbreviation
+                        <br />
+                        Launch date: @launch.LaunchDate.ToShortDateString()
+                        <br />
+                        Rocket Id: @launch.Rocket.RocketId
+                        <br />
+                        Rocket name: @launch.Rocket.RocketName
+                        <br />
+                        Rocket type: @launch.Rocket.RocketType
+                    </div>
+                    <div class="row mt-3 mb-3 divider align-self-center" style="width:99%;">
+                        <hr />
+                    </div>
+                    <div class="card-body text-center">Description:</div>
+                    <div class="card-body text-center p-2">
+                        @if (string.IsNullOrEmpty(launch.Details))
+                        {
+                            <div>N/A</div>
+                        }
+                        else
+                        {
+                            <div>@launch.Details.</div>
+                        }
+
+                    </div>
+                </div>
+            }
+            else
+            {
+                <div class="card border border-3 m-2 p-2 display-launch" style="width: 25rem">
+                    <h2 class="text-center p-1 mt-4 mb-3"><form method="post" asp-route-flightNumber="@launch.FlightNumber" asp-page-handler="CreateFavoriteLaunch"><button class="transparent-button" title="Mark as favorite!"><i class="fa-solid fa-rocket fa-2xl hover-glow bright"></i></button></form></h2>
+                    <div class="row mt-3 mb-3 divider align-self-center" style="width:99%;">
+                        <hr />
+                    </div>
+                    <div class="card-body text-center">Details:</div>
+                    <div class="card-body text-center">
+                        Mission name: @launch.MissionName
+                        <br />
+                        Launch site: @launch.LaunchSite.SiteNameAbbreviation
+                        <br />
+                        Launch date: @launch.LaunchDate.ToShortDateString()
+                        <br />
+                        Rocket Id: @launch.Rocket.RocketId
+                        <br />
+                        Rocket name: @launch.Rocket.RocketName
+                        <br />
+                        Rocket type: @launch.Rocket.RocketType
+                    </div>
+                    <div class="row mt-3 mb-3 divider align-self-center" style="width:99%;">
+                        <hr />
+                    </div>
+                    <div class="card-body text-center">Description:</div>
+                    <div class="card-body text-center p-2">
+                        @if (string.IsNullOrEmpty(launch.Details))
+                        {
+                            <div>N/A</div>
+                        }
+                        else
+                        {
+                            <div>@launch.Details.</div>
+                        }
+
+                    </div>
+                </div>
+            }
+
+        }
+    </div>
+
+    <div class="row mt-3 mb-3 divider">
+        <hr/>
+    </div>
+
+    <div class="row" id="total-costs">
+        <div class="col-6 text-center">
+            <h4><i class="fa-solid fa-sack-dollar hover-glow"></i> Total costs:</h4>
+            <h4 class="hover-glow">@Model.TotalCosts.00 <span class="text-success">$$</span></h4>
+        </div>
+        <div class="col-6 text-center">
+            <h4><i class="fa-solid fa-sack-dollar hover-glow"></i> Average cost / launch:</h4>
+            <h4 class="hover-glow">@Model.AverageCost.00 <span class="text-success">$$</span></h4>
+        </div>
+        
+    </div>
+
+    <div class="row mt-3 mb-3 divider">
+        <hr/>
+    </div>
+    <div class="row" id="docs">
+        <h2>Here you can see all the Docs</h2>
+    </div>
+
+</div>

@@ -1,0 +1,12 @@
+C:\Users\benja\Desktop\Newton\OPF\Newton-Razor\SpaceX\SpaceX.DTO\bin\Debug\net7.0\SpaceX.DTO.deps.json
+C:\Users\benja\Desktop\Newton\OPF\Newton-Razor\SpaceX\SpaceX.DTO\bin\Debug\net7.0\SpaceX.DTO.dll
+C:\Users\benja\Desktop\Newton\OPF\Newton-Razor\SpaceX\SpaceX.DTO\bin\Debug\net7.0\SpaceX.DTO.pdb
+C:\Users\benja\Desktop\Newton\OPF\Newton-Razor\SpaceX\SpaceX.DTO\obj\Debug\net7.0\SpaceX.DTO.csproj.AssemblyReference.cache
+C:\Users\benja\Desktop\Newton\OPF\Newton-Razor\SpaceX\SpaceX.DTO\obj\Debug\net7.0\SpaceX.DTO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\benja\Desktop\Newton\OPF\Newton-Razor\SpaceX\SpaceX.DTO\obj\Debug\net7.0\SpaceX.DTO.AssemblyInfoInputs.cache
+C:\Users\benja\Desktop\Newton\OPF\Newton-Razor\SpaceX\SpaceX.DTO\obj\Debug\net7.0\SpaceX.DTO.AssemblyInfo.cs
+C:\Users\benja\Desktop\Newton\OPF\Newton-Razor\SpaceX\SpaceX.DTO\obj\Debug\net7.0\SpaceX.DTO.csproj.CoreCompileInputs.cache
+C:\Users\benja\Desktop\Newton\OPF\Newton-Razor\SpaceX\SpaceX.DTO\obj\Debug\net7.0\SpaceX.DTO.dll
+C:\Users\benja\Desktop\Newton\OPF\Newton-Razor\SpaceX\SpaceX.DTO\obj\Debug\net7.0\refint\SpaceX.DTO.dll
+C:\Users\benja\Desktop\Newton\OPF\Newton-Razor\SpaceX\SpaceX.DTO\obj\Debug\net7.0\SpaceX.DTO.pdb
+C:\Users\benja\Desktop\Newton\OPF\Newton-Razor\SpaceX\SpaceX.DTO\obj\Debug\net7.0\ref\SpaceX.DTO.dll
